@@ -57,13 +57,14 @@
     }
     
     .topheader .inner .toprightmenu .login_register a{
-        width: 100px;
+        width: 80px;
         padding-top: 14px;
         height: 43px;
         background-color: #008DC9;
         font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
         float: left;
         text-align: center;
+        font-weight: bold;
     }
     .topheader .inner .toprightmenu .login_register a:hover{
         background-color: #fff;
