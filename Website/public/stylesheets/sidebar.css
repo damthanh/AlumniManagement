@@ -1,4 +1,5 @@
 @media screen and (min-width: 768px) {
+
     /*
         navigator
     */
@@ -11,6 +12,7 @@
         height: 80px;
         width: 100%;
     }
+
     .topheader .outer {
         font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
         font-size: 15px;
@@ -22,6 +24,7 @@
         border-bottom: 3px solid #008DC9;
         /* để green thì không có cái đường thẳng nhìn ko đẹp cho lắm*/
     }
+
     .topheader .inner {
         font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
         width: 1100px;
@@ -29,11 +32,13 @@
         margin-left: auto;
         margin-right: auto;
     }
+
     .topheader .inner .topleftmenu {
         display: inline-block;
         float: left;
         font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
     }
+
     .topheader .inner .topleftmenu a {
         font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
         text-decoration: none;
@@ -42,11 +47,13 @@
         font-size: 15px;
         font-weight: bold;
     }
+
     .topheader .inner .topleftmenu a:hover {
         background-color: #fff;
         border-radius: 20px;
         font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
     }
+
     .topheader .inner .toprightmenu {
         text-align: right;
         float: right;
@@ -55,8 +62,8 @@
         background-color: #008DC9;
         font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
     }
-    
-    .topheader .inner .toprightmenu .login_register a{
+
+    .topheader .inner .toprightmenu .login_register a {
         width: 80px;
         padding-top: 14px;
         height: 43px;
@@ -66,7 +73,8 @@
         text-align: center;
         font-weight: bold;
     }
-    .topheader .inner .toprightmenu .login_register a:hover{
+
+    .topheader .inner .toprightmenu .login_register a:hover {
         background-color: #fff;
         border-radius: 20px;
         font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -82,6 +90,7 @@
         background-color: #008DC9;
         font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
     }
+
     .topheader .inner .toprightmenu .username span {
         padding-top: 12px;
         padding-lefT: 12px;
@@ -90,13 +99,16 @@
         background-color: #008DC9;
         font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
     }
+
     .topheader .inner .toprightmenu .username span:hover {
         text-decoration: underline;
         background-color: #008DC9;
     }
+
     .topheader .inner .toprightmenu a:hover {
         color: gold;
     }
+
     .clear {
         clear: both;
         height: 0px;
@@ -105,6 +117,7 @@
         margin: 0px;
         z-index: 10;
     }
+
     header {
         margin-top: 40px;
         width: 100%;
@@ -114,10 +127,11 @@
         background-repeat: no-repeat;
         z-index: 10;
     }
-    #search{
+
+    #search {
         height: 30px;
         margin-top: 6px;
         width: 200px;
-        float:left;
+        float: left;
     }
 }
