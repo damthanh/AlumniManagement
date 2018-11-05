@@ -8,13 +8,19 @@
   text-align: left;
   left: 5%;
 }
-
-.login-sec {
-  padding: 50px 30px;
+.tableInformation{
+	width:900px;
+	height:300px;
+	font-size:18px;
+ }
+  
+.registerinfor-sec {
+  padding: 30px 40px;
+  margin-left:65px;
   position: relative;
 }
 
-.login-sec .copy-text {
+.registerinfor-sec .copy-text {
   position: absolute;
   width: 80%;
   bottom: 20px;
@@ -22,22 +28,22 @@
   text-align: center;
 }
 
-.login-sec .copy-text i {
+.registerinfor-sec .copy-text i {
   color: #FEB58A;
 }
 
-.login-sec .copy-text a {
+.registerinfor-sec .copy-text a {
   color: #E36262;
 }
 
-.login-sec h2 {
+.registerinfor-sec h2 {
   margin-bottom: 30px;
   font-weight: 800;
   font-size: 30px;
   color: #DE6262;
 }
 
-.login-sec h2:after {
+.registerinfor-sec h2:after {
   content: " ";
   width: 100px;
   height: 5px;
@@ -49,7 +55,7 @@
   margin-right: auto
 }
 
-.btn-login {
+.btn-registerinfor {	
   background: #DE6262;
   color: #fff;
   font-family: 'Times New Roman', Times, serif;
@@ -81,19 +87,9 @@
 .banner-text p {
   color: #fff;
 }
-#signin_margin{
-	margin-top:8px;
-}
 
-#register_button_in_login {
+
+#registerinfor_button {
   font-family: 'Times New Roman', Times, serif;
 }
 
-#fogot_password_link {
-  color: blue;
-  margin-right: 14px;
-}
-
-#fogot_password_link:hover {
-  color: red;
-}

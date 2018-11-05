@@ -9,12 +9,13 @@
   left: 5%;
 }
 
-.login-sec {
-  padding: 50px 30px;
+.register-sec {
+  padding: 50px 40px;
+  margin-left:300px;
   position: relative;
 }
 
-.login-sec .copy-text {
+.register-sec .copy-text {
   position: absolute;
   width: 80%;
   bottom: 20px;
@@ -22,22 +23,22 @@
   text-align: center;
 }
 
-.login-sec .copy-text i {
+.register-sec .copy-text i {
   color: #FEB58A;
 }
 
-.login-sec .copy-text a {
+.register-sec .copy-text a {
   color: #E36262;
 }
 
-.login-sec h2 {
+.register-sec h2 {
   margin-bottom: 30px;
   font-weight: 800;
   font-size: 30px;
   color: #DE6262;
 }
 
-.login-sec h2:after {
+.register-sec h2:after {
   content: " ";
   width: 100px;
   height: 5px;
@@ -49,7 +50,7 @@
   margin-right: auto
 }
 
-.btn-login {
+.btn-register {
   background: #DE6262;
   color: #fff;
   font-family: 'Times New Roman', Times, serif;
@@ -81,19 +82,8 @@
 .banner-text p {
   color: #fff;
 }
-#signin_margin{
-	margin-top:8px;
-}
 
-#register_button_in_login {
+#register_button {
   font-family: 'Times New Roman', Times, serif;
 }
 
-#fogot_password_link {
-  color: blue;
-  margin-right: 14px;
-}
-
-#fogot_password_link:hover {
-  color: red;
-}

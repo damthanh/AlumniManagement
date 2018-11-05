@@ -24,8 +24,49 @@
 			Nav
 		-->
 	<div class="body-wrapper">
-
+	
+				<div class="col-md-5 register-sec">
+					<h1 class="text-center">Register</h1>
+					<br>
+					<form class="login-form" onsubmit="return check_input();" name="register-form">
+						<div class="form-group">
+							<label for="exampleInputEmail1" class="text-uppercase">Email:</label>
+							<input type="email" class="form-control" placeholder="" required>
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1" class="text-uppercase">Password:</label>
+							<input type="password" id="pass" class="form-control" placeholder=""required>
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1" class="text-uppercase">Confirm Password:</label>
+							<input type="password" id="cfpass" class="form-control" placeholder="" required  onblur="cfpassBlur()">
+							<span id="cf_password_error"></span>
+						</div>
+			
+					
+							<button type="submit"  class="btn btn-register float-right"  >Register</button>
+					</form>
+					
+				
+				</div>
 	</div>
+			<script type="text/javascript">
+			function cfpassBlur(){
+					var pass=document.getElementById("pass");
+					var repass=document.getElementById("cfpass");
+					var repassError=document.getElementById("cf_password_error");
+					if(pass.value != repass.value){
+						 repassError.style.color="red";
+						 repassError.innerHTML="Mật khẩu nhập lại không đúng!";
+						}else {
+						repassError.innerHTML="";
+				
+						}
+					document.location.href ="/registerinformation";	
+				};
+	
+			</script>	
+				
 
 	<!--
 			Footer

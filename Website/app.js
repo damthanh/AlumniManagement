@@ -9,6 +9,7 @@ var usersRouter = require('./routes/users');
 var loginRouter = require('./routes/login');
 var registerRouter = require('./routes/register');
 var contactRouter = require('./routes/contact');
+var registerInformationRouter = require('./routes/registerinformation');
 var app = express();
 
 // view engine setup
@@ -24,11 +25,12 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 //Link to file
-app.use('/', indexRouter);
+app.use('/index', indexRouter);
 app.use('/users', usersRouter);
 app.use('/login', loginRouter);
 app.use('/register', registerRouter);
 app.use('/contact', contactRouter);
+app.use('/registerinformation', registerInformationRouter);
 
 
 // catch 404 and forward to error handler
