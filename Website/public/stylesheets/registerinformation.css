@@ -14,6 +14,7 @@
 	font-size:18px;
  }
   
+  
 .registerinfor-sec {
   padding: 30px 40px;
   margin-left:65px;
@@ -58,6 +59,15 @@
 .btn-registerinfor {	
   background: #DE6262;
   color: #fff;
+  margin-top:30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+}
+.btn-registerinforBQ {	
+  background: #DE6262;
+  color: #fff;
+  margin-top:30px;
+  margin-left:900px;
   font-family: 'Times New Roman', Times, serif;
   font-weight: 600;
 }
@@ -89,7 +99,8 @@
 }
 
 
-#registerinfor_button {
-  font-family: 'Times New Roman', Times, serif;
+#submit-form {
+  margin-left: 650px;
+  
 }
 
