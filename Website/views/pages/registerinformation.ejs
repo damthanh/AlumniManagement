@@ -24,221 +24,228 @@
 			Nav
 		-->
 	<div class="body-wrapper">
-	
+
 		<div class="col-md-10 registerinfor-sec">
 			<h1 class="text-center">Person Information</h1>
-		
-            <form class="login-form" action="localhost:3000/post_process"  method="post" accept-charset="utf-8">  
-				<hr>	
-                <br>
-                <table class="tableInformation">
-                    <tr class="form-group">	
-                        <td style="width: 120px;">Họ Tên:</td>
-                        <td style="width: 350px;"><input type="input" name="inHoTen" class="form-control" required style="width:95%" value=""  /> </td>
-              <!--        <td style="width: 80px;">Ngày sinh:</td>
+
+			<form class="login-form" method="post" accept-charset="utf-8">
+				<hr>
+				<br>
+				<table class="tableInformation">
+					<tr class="form-group">
+						<td style="width: 120px;">Họ Tên:</td>
+						<td style="width: 350px;"><input type="input" name="inHoTen" class="form-control" required style="width:95%"
+							 value="" /> </td>
+						<!--        <td style="width: 80px;">Ngày sinh:</td>
                       <td style="width: 280px;"><input type="input" name="inNgaySinh" required  style="width:50%" value="" /> (     dd/mm/yyyy ) </td>  -->
-						<td style="width: 100px;" >Ngày sinh:</td>
+						<td style="width: 100px;">Ngày sinh:</td>
 						<td>Ngày:</td>
-						<td >  
-						<select name="inNgay" id="inNgay" style="20px" >
-							<option value="1" selected> 1</option>
-							<option value="2" >2</option>
-							<option value="3" >3</option>
-							<option value="4" >4</option>
-							<option value="5" >5</option>
-							<option value="6" >6</option>
-							<option value="7" >7</option>
-							<option value="8" >8</option>
-							<option value="9" >9</option>
-							<option value="10" >10</option>
-							<option value="11" >11</option>
-							<option value="12" >12</option>
-							<option value="13" >13</option>
-							<option value="14" >14</option>
-							<option value="15" >15</option>
-							<option value="16" >16</option>
-							<option value="17" >17</option>
-							<option value="18" >18</option>
-							<option value="19" >19</option>
-							<option value="20" >20</option>
-							<option value="21" >21</option>
-							<option value="22" >22</option>
-							<option value="23" >23</option>
-							<option value="24" >24</option>
-							<option value="25" >25</option>
-							<option value="26" >26</option>
-							<option value="27" >27</option>
-							<option value="28" >28</option>
-							<option value="29" >29</option>
-							<option value="30" >30</option>
-							<option value="31" >31</option>
-						</select>	
-						</td>
-						 <td style="width: 20px;">Tháng:</td>
 						<td>
-						<select name="inThang" id="inThang" >	
-							<option value="1" selected> 1</option>
-							<option value="2" >2</option>
-							<option value="3" >3</option>
-							<option value="4" >4</option>
-							<option value="5" >5</option>
-							<option value="6" >6</option>
-							<option value="7" >7</option>
-							<option value="8" >8</option>
-							<option value="9" >9</option>
-							<option value="10" >10</option>
-							<option value="11" >11</option>
-							<option value="12" >12</option>
-						</select>		
+							<select name="inNgay" id="inNgay" style="20px">
+								<option value="1" selected> 1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+								<option value="31">31</option>
+							</select>
 						</td>
-						 <td style="width: 20px;">Năm:</td>
+						<td style="width: 20px;">Tháng:</td>
 						<td>
-						<select name="inNam" id="inNam" style="width: 30;">			
-								<option value="1996" >1996</option>
-								<option value="1995" >1995</option>
-								<option value="1994" >1994</option>
-								<option value="1993" >1993</option>
-								<option value="1992" >1992</option>
-								<option value="1991" >1991</option>
-								<option value="1990" >1990</option>
-								<option value="1989" >1989</option>
-								<option value="1988" >1988</option>
-								<option value="1987" >1987</option>
-								<option value="1986" >1986</option>
-								<option value="1985" >1985</option>
-								<option value="1984" >1984</option>
-								<option value="1983" >1983</option>
-								<option value="1982" >1982</option>
-								<option value="1981" >1981</option>
-								<option value="1980" >1980</option>
-								<option value="1979" >1979</option>
-								<option value="1978" >1978</option>
-								<option value="1977" >1977</option>
-							</select>	
+							<select name="inThang" id="inThang">
+								<option value="1" selected> 1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+							</select>
 						</td>
-                    </tr>
-                    <tr>
-                        <td>Hình cá nhân:</td>
-                        <td colspan="8"><input type="file" class="file_1" name="userfile" /> (jpg,jpeg,gif,png) </td>
-                    </tr>
-                    <tr class="form-group" >
-                        <td>Địa chỉ :</td>
-                        <td colspan="8"><input type="input" name="inDiaChi" class="form-control"  style="width:100%" value=""/></td>
-                    </tr>
-                    <tr class="form-group">
-                        <td>Nơi công tác :</td>
-                        <td colspan="8"><input type="input" name="inNoiCongTac" class="form-control" style="width:100%" value=""/></td>
-                    </tr>
-					<tr >
-                        <td style="width: 120px;">Vị trí:</td>
-                        <td style="width: 240px;"><input type="input" name="inViTri" class="form-control"  style="width:95%" value=""/> </td>
-                        <td    style="width: 80px;">Chức vụ:</td>
-                        <td colspan="7" style="width: 240px;"><input type="input" name="inChucVu" class="form-control"  style="width:100%" value=""/></td>
-                    </tr>
-                    <tr >
-                        <td style="width: 120px;">Mức lương:</td>
-                        <td style="width: 240px;"><input type="input" name="inMucLuong" class="form-control"  style="width:95%" value=""/> </td>
-                        <td  style="width: 80px;">Số ĐT:</td>
-                        <td colspan="7"style="width: 240px;"><input type="input" name="inSoDT" class="form-control"  style="width:100%" value=""/></td>
-                    </tr>
-                </table>
-                <hr>
-                <table class="tableInformation">
-                    <tr >
-                        <td style="width: 120px;">Mã sinh viên:</td>
-                        <td style="width: 260px;"><input type="input" name="inMSSV" class="form-control" required style="width:95%" value=""/> </td>
-                        <td style="width: 80px;">Khóa học:</td>
-                        <td style="width: 240px;"><input type="input" name="inKhoaHoc" class="form-control" required style="width:100%" value=""/></td>
-                    </tr>
-                    <tr class="form-group">
-                        <td>Năm tốt nghiệp:</td>
-                        <td>
-                            <select name="inNamTotNghiep" style="width: 95%;">
-																		 <option value="2018" selected>2018</option>
-                                                                        <option value="2017">2017</option>
-                                                                        <option value="2016" >2016</option>
-                                                                        <option value="2015" >2015</option>
-                                                                        <option value="2014" >2014</option>
-                                                                        <option value="2013" >2013</option>
-                                                                        <option value="2012" >2012</option>
-                                                                        <option value="2011" >2011</option>
-                                                                        <option value="2010" >2010</option>
-																		<option value="2009" >2009</option>
-                                                                        <option value="2008" >2008</option>
-                                                                        <option value="2007" >2007</option>
-                                                                        <option value="2006" >2006</option>
-                                                                        <option value="2005" >2005</option>
-                                                                        <option value="2004" >2004</option>
-                                                                        <option value="2003" >2003</option>
-                                                                        <option value="2002" >2002</option>
-                                                                        <option value="2001" >2001</option>
-                                                                        <option value="2000" >2000</option>
-                                                                        <option value="1999" >1999</option>
-                                                                </select>
-                        </td>
-                        <td>Lớp:</td>
-                        <td>
-                            <input type="input" name="inLop" class="form-control" required style="width:100%" value=""/> 
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Khoa:</td>
-                        <td>
-                            <select name="inKhoa" id="inKhoa" style="width: 95%;" onchange="level2(this.value)" 
-							onblur="check_input();" value="" >
-                                <option selected="selected" disabled="disabled" value="0" >Chọn Khoa</option>
-                                                                    <option value="kcntt" >Khoa Công Nghệ Thông Tin</option>
-																			 <option value="kdtvt" >Khoa Điện Tử Viễn Thông</option>
-                                                                        <option value="kvlktcnnn" >Khoa Vật Lý Kỹ Thuật Và Công Nghệ Nano</option>
-                                                                        <option value="kchkttdh" >Khoa Cơ Học Kỹ Thuật Và Tự Động Hóa</option>
-                                                                        <option value="vcnhkvt" >Viện Công Nghệ Hàng Không Vũ Trụ</option>
-                                                                        <option value="vttvktcn" >Viện Tiên Tiến Về Kỹ Thuật Và Công Nghệ</option>
-                                                                        <option value="bmcnxdgt" >Bộ Môn Công Nghệ Xây Dựng-Giao Thông </option>
-                                                                        
-                                                                </select>
+						<td style="width: 20px;">Năm:</td>
+						<td>
+							<select name="inNam" id="inNam" style="width: 30;">
+								<option value="1996">1996</option>
+								<option value="1995">1995</option>
+								<option value="1994">1994</option>
+								<option value="1993">1993</option>
+								<option value="1992">1992</option>
+								<option value="1991">1991</option>
+								<option value="1990">1990</option>
+								<option value="1989">1989</option>
+								<option value="1988">1988</option>
+								<option value="1987">1987</option>
+								<option value="1986">1986</option>
+								<option value="1985">1985</option>
+								<option value="1984">1984</option>
+								<option value="1983">1983</option>
+								<option value="1982">1982</option>
+								<option value="1981">1981</option>
+								<option value="1980">1980</option>
+								<option value="1979">1979</option>
+								<option value="1978">1978</option>
+								<option value="1977">1977</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Hình cá nhân:</td>
+						<td colspan="8"><input type="file" class="file_1" name="userfile" /> (jpg,jpeg,gif,png) </td>
+					</tr>
+					<tr class="form-group">
+						<td>Địa chỉ :</td>
+						<td colspan="8"><input type="input" name="inDiaChi" class="form-control" style="width:100%" value="" /></td>
+					</tr>
+					<tr class="form-group">
+						<td>Nơi công tác :</td>
+						<td colspan="8"><input type="input" name="inNoiCongTac" class="form-control" style="width:100%" value="" /></td>
+					</tr>
+					<tr>
+						<td style="width: 120px;">Vị trí:</td>
+						<td style="width: 240px;"><input type="input" name="inViTri" class="form-control" style="width:95%" value="" />
+						</td>
+						<td style="width: 80px;">Chức vụ:</td>
+						<td colspan="7" style="width: 240px;"><input type="input" name="inChucVu" class="form-control" style="width:100%"
+							 value="" /></td>
+					</tr>
+					<tr>
+						<td style="width: 120px;">Mức lương:</td>
+						<td style="width: 240px;"><input type="input" name="inMucLuong" class="form-control" style="width:95%" value="" />
+						</td>
+						<td style="width: 80px;">Số ĐT:</td>
+						<td colspan="7" style="width: 240px;"><input type="input" name="inSoDT" class="form-control" style="width:100%"
+							 value="" /></td>
+					</tr>
+				</table>
+				<hr>
+				<table class="tableInformation">
+					<tr>
+						<td style="width: 120px;">Mã sinh viên:</td>
+						<td style="width: 260px;"><input type="input" name="inMSSV" class="form-control" required style="width:95%" value="" />
+						</td>
+						<td style="width: 80px;">Khóa học:</td>
+						<td style="width: 240px;"><input type="input" name="inKhoaHoc" class="form-control" required style="width:100%"
+							 value="" /></td>
+					</tr>
+					<tr class="form-group">
+						<td>Năm tốt nghiệp:</td>
+						<td>
+							<select name="inNamTotNghiep" style="width: 95%;">
+								<option value="2018" selected>2018</option>
+								<option value="2017">2017</option>
+								<option value="2016">2016</option>
+								<option value="2015">2015</option>
+								<option value="2014">2014</option>
+								<option value="2013">2013</option>
+								<option value="2012">2012</option>
+								<option value="2011">2011</option>
+								<option value="2010">2010</option>
+								<option value="2009">2009</option>
+								<option value="2008">2008</option>
+								<option value="2007">2007</option>
+								<option value="2006">2006</option>
+								<option value="2005">2005</option>
+								<option value="2004">2004</option>
+								<option value="2003">2003</option>
+								<option value="2002">2002</option>
+								<option value="2001">2001</option>
+								<option value="2000">2000</option>
+								<option value="1999">1999</option>
+							</select>
+						</td>
+						<td>Lớp:</td>
+						<td>
+							<input type="input" name="inLop" class="form-control" required style="width:100%" value="" />
+						</td>
+					</tr>
+					<tr>
+						<td>Khoa:</td>
+						<td>
+							<select name="inKhoa" id="inKhoa" style="width: 95%;" onchange="level2(this.value)" onblur="check_input();"
+							 value="">
+								<option selected="selected" disabled="disabled" value="0">Chọn Khoa</option>
+								<option value="kcntt">Khoa Công Nghệ Thông Tin</option>
+								<option value="kdtvt">Khoa Điện Tử Viễn Thông</option>
+								<option value="kvlktcnnn">Khoa Vật Lý Kỹ Thuật Và Công Nghệ Nano</option>
+								<option value="kchkttdh">Khoa Cơ Học Kỹ Thuật Và Tự Động Hóa</option>
+								<option value="vcnhkvt">Viện Công Nghệ Hàng Không Vũ Trụ</option>
+								<option value="vttvktcn">Viện Tiên Tiến Về Kỹ Thuật Và Công Nghệ</option>
+								<option value="bmcnxdgt">Bộ Môn Công Nghệ Xây Dựng-Giao Thông </option>
+
+							</select>
 							<span id="khoa_error"></span>
-                        </td>
-                        <td>Ngành học:</td>
-                        <td>
-                            <select name="inNganh" id="inNganh" style="width: 100%;">
-									  <option selected="selected" disabled="disabled" value="0">Chọn Ngành</option>
-																		<option value="cntt" >Công Nghệ Thông Tin</option>
-                                                                        <option value="cnttdhttnb" >Công Nghệ Thông Tin Định Hướng Thị Trường Nhật Bản</option>
-                                                                        <option value="httt" >Hệ Thống Thông Tin</option>
-                                                                        <option value="mmtttdl" >Mạng Máy Tính Và Truyền Thông Dữ Liệu</option>
-                                                                        <option value="ktmt" >Kỹ thuật máy tính</option>
-                                                                        <option value="ktrb" >Kỹ thuật Robot*</option>
-                                                                        <option value="ktnl" >Kỹ thuật năng lượng*</option>
-                                                                        <option value="vlkt" >Vật lý kỹ thuật</option>
-                                                                        <option value="ckt" >Cơ kỹ thuật</option>
-                                                                        <option value="cnktxd" >Công nghệ kỹ thuật xây dựng</option>
-                                                                        <option value="cnktcdt" >Công nghệ kỹ thuật cơ điện tử</option>
-                                                                        <option value="cnhkvt" >Công nghệ Hàng không vũ trụ*</option>
-																		<option value="khmt" >Khoa học Máy tính**</option>
-                                                                        <option value="cnktdtvt" >Công nghệ kỹ thuật điện tử - viễn thông**</option>
-                                                                        
-                                                                </select>
-								<span id="nganh_error"></span>											
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Bậc đào tào:</td>
-                        <td colspan="3">
-                            <select name="inBacDaoTao" id="inBacDaoTao" style="width: 41%;">
-																		<option value="dhcqhc" >Đại học chính quy hệ chuẩn</option>
-                                                                        <option value="sdh" >Sau đại học</option>
-                                                                        <option value="dhcqhclc" >Đại học chính quy hệ chất lượng cao</option>
-                                                                        <option value="dhvb2" >Đại học văn bằng 2</option>
-                                                                </select>
-                        </td>
-                    </tr>
-					</table>
-                             <button type="submit" id="submit-form" class="btn btn-registerinfor " onclick="check_input();" >Cập Nhật</button></a>
-							 <a  href="/"><button type="button" class="btn btn-registerinfor float-right ">Bỏ Qua</button></a>
-                
+						</td>
+						<td>Ngành học:</td>
+						<td>
+							<select name="inNganh" id="inNganh" style="width: 100%;">
+								<option selected="selected" disabled="disabled" value="0">Chọn Ngành</option>
+								<option value="cntt">Công Nghệ Thông Tin</option>
+								<option value="cnttdhttnb">Công Nghệ Thông Tin Định Hướng Thị Trường Nhật Bản</option>
+								<option value="httt">Hệ Thống Thông Tin</option>
+								<option value="mmtttdl">Mạng Máy Tính Và Truyền Thông Dữ Liệu</option>
+								<option value="ktmt">Kỹ thuật máy tính</option>
+								<option value="ktrb">Kỹ thuật Robot*</option>
+								<option value="ktnl">Kỹ thuật năng lượng*</option>
+								<option value="vlkt">Vật lý kỹ thuật</option>
+								<option value="ckt">Cơ kỹ thuật</option>
+								<option value="cnktxd">Công nghệ kỹ thuật xây dựng</option>
+								<option value="cnktcdt">Công nghệ kỹ thuật cơ điện tử</option>
+								<option value="cnhkvt">Công nghệ Hàng không vũ trụ*</option>
+								<option value="khmt">Khoa học Máy tính**</option>
+								<option value="cnktdtvt">Công nghệ kỹ thuật điện tử - viễn thông**</option>
+
+							</select>
+							<span id="nganh_error"></span>
+						</td>
+					</tr>
+					<tr>
+						<td>Bậc đào tào:</td>
+						<td colspan="3">
+							<select name="inBacDaoTao" id="inBacDaoTao" style="width: 41%;">
+								<option value="dhcqhc">Đại học chính quy hệ chuẩn</option>
+								<option value="sdh">Sau đại học</option>
+								<option value="dhcqhclc">Đại học chính quy hệ chất lượng cao</option>
+								<option value="dhvb2">Đại học văn bằng 2</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+				<button type="submit" id="submit-form" class="btn btn-registerinfor " onclick="check_input();">Cập Nhật</button></a>
+				<a href="/"><button type="button" class="btn btn-registerinfor float-right ">Bỏ Qua</button></a>
+
 			</form>
 		</div>
-	</div>		
+	</div>
 
 
 	<!--
@@ -250,40 +257,27 @@
 </body>
 
 <script>
-        function check_input(){
-					var khoa=document.getElementById("inKhoa");
-					var khoaError=document.getElementById("khoa_error");
-					var nganh=document.getElementById("inNganh");
-					var nganhError=document.getElementById("nganh_error");
-					if(khoa.value=="0" || nganh.value=="0"){
-						if(khoa.value=="0"){ 
-							khoaError.style.color="red";
-							khoaError.innerHTML="Bạn vui lòng chọn khoa!";
-						}	
-						if(nganh.value=="0"){
-							nganhError.style.color="red";
-							nganhError.innerHTML="Bạn vui lòng chọn ngành!";
-						}	
-					}else {
-						khoaError.innerHTML="";
-						nganhError.innerHTML="";
-						alert('Bạn đã cập nhật thông tin thành công!');
-						document.location.href ="/";	
-					}
-					
-				};
-					 
-					 
-					 
-					 
-					 
-</script>					 
-					
-					
-					
-				
-                                 
-                                                
-				
+	function check_input() {
+		var khoa = document.getElementById("inKhoa");
+		var khoaError = document.getElementById("khoa_error");
+		var nganh = document.getElementById("inNganh");
+		var nganhError = document.getElementById("nganh_error");
+		if (khoa.value == "0" || nganh.value == "0") {
+			if (khoa.value == "0") {
+				khoaError.style.color = "red";
+				khoaError.innerHTML = "Bạn vui lòng chọn khoa!";
+			}
+			if (nganh.value == "0") {
+				nganhError.style.color = "red";
+				nganhError.innerHTML = "Bạn vui lòng chọn ngành!";
+			}
+		} else {
+			khoaError.innerHTML = "";
+			nganhError.innerHTML = "";
+			alert('Bạn đã cập nhật thông tin thành công!');
+			document.location.href = "/";
+		}
 
+	};
+</script>
 </html>
